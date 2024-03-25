@@ -1,11 +1,10 @@
-num = 10
+a = 1
+b = 1
+c = 1
 
-a, b = 1, 1
-print(a, end=" ")
-print(b, end=" ")
-
-
-for _ in range(2, num):
-    c = a + b
-    print(c, end=" ")
-    a, b = b, c
+for i in range (10) :
+    a = b 
+    b = c
+    c = a + b 
+    print (a, end = " ")
+print ()
