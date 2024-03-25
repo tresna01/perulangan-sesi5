@@ -1,9 +1,7 @@
-baris = 3
-kolom = 4
-
-
-for i in range(1, baris + 1):
-    for j in range(kolom):
-        print(f"{i} ", end="")
-    
-print()
+a = 1
+for i in range(3):
+    for j in range(4):
+        print (a , end = " ")
+    print ()
+    a += 1
+print ()

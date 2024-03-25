@@ -1,5 +1,6 @@
-num = 7
-
-for i in range(6,11,1):
-    result = num * i
-    print(f"{num} x {i} = {result}")
+a = 7 
+b = 6
+for i in range (5):
+    c = a*b
+    print (f"{a}x{b} = {c}")
+    b += 1
